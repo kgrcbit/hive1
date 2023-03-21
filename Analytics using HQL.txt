@@ -1,0 +1,38 @@
+1. Find out the top 5 categories with maximum number of videos uploaded.
+	select category,count(category) as cnt from data group by category order by cnt desc limit 5;
+
+
+
+2. Find the top 10 rated videos on youtube.
+
+	select video_id,rating from data group by video_id,rating order by rating desc limit 10;
+
+
+
+
+
+3. Find the total 5 video with max length.
+	select video_id,length from data group by video_id,length order by length desc limit 5;
+
+
+
+
+4. Find the video with maximum length.
+	select video_id,length from data group by video_id,length order by length desc limit 1;
+
+
+
+
+5. Find the video with maximum number of views.
+	select video_id,no_of_views from data group by video_id,no_of_views order by no_of_views desc limit 1;
+
+
+
+
+
+6. Find the video with maximum rating.
+	select video_id,rating from data group by video_id,rating order by rating desc limit 1;
+
+
+
+

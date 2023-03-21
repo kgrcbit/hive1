@@ -1,0 +1,37 @@
+create table data(
+
+video_id string,
+
+video_uploader string,
+
+interval_time int,
+
+category string,
+
+length int,
+
+no_of_views int,
+
+rating decimal,
+
+no_of_rating int,
+
+no_of_comments int,
+
+related_video_id array<String>
+)
+
+row format delimited
+ 
+fields terminated by '\t'
+
+collection items terminated by '\t'
+
+stored as textfile;
+
+
+
+
+
+
+load data local inpath '/home/abhi97/Desktop/ydata.txt' overwrite into table data; 

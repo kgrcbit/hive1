@@ -1,0 +1,30 @@
+					
+					Project Title: Youtube Data Analysis
+
+YouTube Data Analysis
+
+This casestudy is about, how to perform YouTube data analysis using Hive.
+Using this dataset we will perform some Analysis and will draw out some insights like what are the top 10 rated videos on YouTube, who uploaded the most number of videos.
+
+DATA SET DESCRIPTION
+
+Column 1: Video id of 11 characters.
+Column 2: uploader of the video
+Column 3: Interval between the day of establishment of Youtube and the date of uploading of the video.
+Column 4: Category of the video.
+Column 5: Length of the video.
+Column 6: Number of views for the video.
+Column 7: Rating on the video.
+Column 8: Number of ratings given for the video
+Column 9: Number of comments done on the videos.
+Column 10: Related video ids with the uploaded video.
+
+Perform the below analytics for youtube data
+
+1. Find out the top 5 categories with maximum number of videos uploaded.
+2. Find the top 10 rated videos on youtube.
+3. Find out the most viewed videos
+4. Find the total 5 video with max length
+5. Find the top 5 videos which has max length, max no. of viewers and max rating
+
+
